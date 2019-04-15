@@ -2,7 +2,7 @@
 /*
 	PHP Request Recorder - Simple Honeypot
 	Version 1.0
-	requestrecord.php
+	Request Recorder
 	by Novran Faathir (Schopath)
 	www.zerobyte.id
 */
@@ -11,7 +11,7 @@ error_reporting(0);
 error_log(0);
 
 /*** CONFIGURATION ***/
-$LOGFILE = "request.log";
+$LOGFILE = "requestrecord.log";
 /******* ***** *******/
 
 $GET = $_GET;
